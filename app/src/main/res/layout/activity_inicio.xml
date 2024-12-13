@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/joao" />
+
+    <TextView
+        android:id="@+id/tituloInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Depósito de Bebidas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAdicionarBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloInicio"
+        android:layout_marginTop="60dp"
+        android:background="#4CAF50"
+        android:text="Adicionar Bebida"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnConsultarEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdicionarBebida"
+        android:layout_marginTop="30dp"
+        android:background="#FF9800"
+        android:text="Consultar Estoque"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRelatorioEstoque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnConsultarEstoque"
+        android:layout_marginTop="30dp"
+        android:background="#00BCD4"
+        android:text="Relatório de Estoque"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnExcluirBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRelatorioEstoque"
+        android:layout_marginTop="30dp"
+        android:background="#F44336"
+        android:text="Excluir Bebida"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnEditarBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnExcluirBebida"
+        android:layout_marginTop="16dp"
+        android:background="#FFC107"
+        android:text="Editar Bebida"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
